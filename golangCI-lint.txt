@@ -1,0 +1,5 @@
+# Navigate to Go component directory
+cd MyApp/go
+
+# Install GolangCI-Lint
+go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
