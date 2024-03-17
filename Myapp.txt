@@ -1,0 +1,13 @@
+# Navigate to MyApp directory
+cd MyApp
+
+# Create directories for components
+mkdir go nextjs wordpress
+
+# Initialize repositories for each component
+cd go
+git init
+cd ../nextjs
+git init
+cd ../wordpress
+git init
