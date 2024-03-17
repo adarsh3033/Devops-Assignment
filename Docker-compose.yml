@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  go:
+    image: yourusername/go-app
+    ports:
+      - "8080:8080"
+    # Add other configurations as needed
+
+  nextjs:
+    image: yourusername/nextjs-app
+    ports:
+      - "3000:3000"
+    # Add other configurations as needed
+
+  wordpress:
+    image: yourusername/wordpress-app
+    ports:
+      - "80:80"
+    # Add other configurations as needed
