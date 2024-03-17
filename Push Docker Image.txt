@@ -1,0 +1,11 @@
+# Go component
+docker build -t yourusername/go-app ./go
+docker push yourusername/go-app
+
+# Next.js component
+docker build -t yourusername/nextjs-app ./nextjs
+docker push yourusername/nextjs-app
+
+# WordPress component
+docker build -t yourusername/wordpress-app ./wordpress
+docker push yourusername/wordpress-app
