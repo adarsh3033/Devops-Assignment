@@ -1,0 +1,8 @@
+# Navigate to WordPress component directory
+cd MyApp/wordpress
+
+# Install PHPCS
+composer require squizlabs/php_codesniffer
+
+# Configure PHPCS for WordPress
+./vendor/bin/phpcs --config-set installed_paths ./vendor/wp-coding-standards/wpcs
